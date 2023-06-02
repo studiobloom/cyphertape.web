@@ -714,6 +714,10 @@ strong {
 }
 
 @media screen and (max-width: 479px) {
+  .container {
+    flex-direction: row;
+  }
+
   .section.contact {
     max-height: 750px;
     padding-top: 0;
@@ -739,6 +743,7 @@ strong {
 
   .navbar_inner {
     flex-direction: column;
+    justify-content: flex-start;
   }
 
   .section_heading {
