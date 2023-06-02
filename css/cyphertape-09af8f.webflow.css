@@ -1520,8 +1520,6 @@ strong {
   }
 
   .navbar_inner {
-    grid-column-gap: .5em;
-    grid-row-gap: .5em;
     flex-direction: column;
   }
 
